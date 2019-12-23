@@ -1,0 +1,66 @@
+.shape {
+  position: absolute;
+}
+
+.rectangle {
+  background-color: green;
+}
+
+.square {
+  background-color: red;
+}
+
+.circle {
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.triangle {
+/*
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent; */
+
+
+}
+
+.shapeButton {
+  background-color: lightgray;
+	border-radius:15px;
+	color:black;
+	font-family:Arial;
+	font-size:17px;
+	text-decoration:none;
+  margin: 8px;
+}
+
+.inputs {
+  font-size: 20px;
+}
+
+#canvas {
+  background-color: lightcoral;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.sidePanel {
+  margin-left: 650px;
+  background-color: gray;
+  height: 600px;
+  width: 350px;
+}
+
+.shapeInfo > div{
+  font-size: 22px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#shapeNameField {
+  margin-top: 50px;
+}
